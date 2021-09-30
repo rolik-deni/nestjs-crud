@@ -1,0 +1,10 @@
+version: "3.9"
+services:
+  db:
+    image: postgres:13.4
+    environment:
+      POSTGRES_DB: "ilink_backend"
+      POSTGRES_USER: "user"
+      POSTGRES_PASSWORD: "ZS8yxKgX"
+    ports:
+      - "5432:5432"
